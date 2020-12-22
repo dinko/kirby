@@ -73,14 +73,14 @@ export default {
   line-height: 1;
   font-style: normal;
   font-size: 1rem;
-  margin-left: -.3rem;
+  margin-left: .05rem;
 }
 
 /* fix emoji alignment on high-res screens */
 @media only screen and (-webkit-min-device-pixel-ratio: 2), not all, not all, not all, only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
   .k-icon-emoji {
     font-size: 1.25rem;
-    margin-left: -.15rem;
+    margin-left: .1rem;
   }
 }
 
